@@ -1,0 +1,57 @@
+/* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap');
+body {
+    margin: 0;
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:54px;
+    background-color: #f9f5e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #000;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    padding-bottom:15vh;
+}
+.container p{
+    margin: 5px 0;
+    line-height: 1.4;
+}
+
+/* Highlight Text */
+.highlight {
+    font-weight: bold;
+}
+
+/* Image Style */
+.icon {
+    width: 150px; /* Adjust size as needed */
+    height: 150px;
+    padding-top: 5vh;
+
+}
+
+/* Button */
+.go-back {
+    margin: 5vh auto; 
+    display: block;
+    background-color: #1f6d3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width:150px;
+    height:60px;
+}
+
+.go-back:hover {
+    background-color: #155428;
+}
