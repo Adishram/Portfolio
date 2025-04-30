@@ -972,16 +972,15 @@
             font-size: 0.9rem;
             color: var(--text-color);
         }
-
         .project-text-behind {
             font-family: 'Bright shade', sans-serif;
             position: absolute;
-            top: 3rem;
-            left:17%;
+            margin-bottom:12rem;
+            margin-right:5%;
             font-size: 10rem;
             color: rgba(0, 0, 0, 0.3);
             font-weight: normal;
-            z-index:0;
+            z-index:-1;
         }
 
         /* Contact Section */
@@ -1850,15 +1849,13 @@
         <h2 class="section-title-proj">My Projects</h2>
         <div class="projects-container">
             <div class="file-img">
+                <span class = "project-text-behind" >Portfolio</span>
                 <img id="hoverImage" src="public/folder-icon-macos.png" alt="Projects folder" onclick="window.location.href='prod.html'"/>
                 <div class="project-preview">
                     <h3>Project Portfolio</h3>
                     <p>Click to view all my projects including web applications, AI models, and mobile apps</p>
                 </div>
-            </div>
-            <div class = "project-text-behind">
-                <span>Portfolio</span>
-            </div>
+            </div>   
         </div>
     </section>
 
